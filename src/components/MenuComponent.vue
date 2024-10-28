@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <ul id="menu">
             <li>
                 <router-link to="/" style="color: blue; text-decoration: none">Home</router-link>
@@ -19,6 +19,9 @@
             <li>
                 <router-link to="/PropiedadConmutada" style="color: blue; text-decoration: none">Propiedad Conmutada</router-link>
             </li>
+            <li>
+                <router-link to="/NumeroParImpar" style="color: blue; text-decoration: none">ParImpar</router-link>
+            </li>
         </ul>
     </div>
 </template>
@@ -30,9 +33,12 @@
 </script>
 
 <style>
+    * {
+        box-sizing: border-box;
+    }
     ul#menu {
-        padding: 0;
         margin: 0;
+        padding: 0;
     }
     ul#menu li {
         display: inline;
@@ -45,5 +51,12 @@
     }
     ul#menu li router-link{
         text-decoration: none;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        /* Add your background pattern here */
+        background-image: repeating-radial-gradient(  #e2d1d1 50%, #e7d2d2ee 70%,#f5c7a1 95%);
+        background-size: 50px 50px;
     }
 </style>

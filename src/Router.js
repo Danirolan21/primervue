@@ -5,6 +5,7 @@ import MusicaComponent from './components/MusicaComponent.vue';
 import CicloVida from './components/CicloVida.vue';
 import DirectivasComponent from './components/DirectivasComponent.vue';
 import PropiedadConmutada from './components/PropiedadConmutada.vue';
+import NumeroParImpar from './components/NumeroParImpar.vue';
 
 //CREAMOS UNA CONSTANTE ARRAY PARA LAS RUTAS
 const myRoutes = [
@@ -25,6 +26,9 @@ const myRoutes = [
     },
     {
         path: "/PropiedadConmutada", component: PropiedadConmutada
+    },
+    {
+        path: "/NumeroParImpar", component: NumeroParImpar
     }
 ]
 
