@@ -2,16 +2,22 @@
     <div>
         <ul id="menu">
             <li>
-                <router-link to="/">Home</router-link>
+                <router-link to="/" style="color: blue; text-decoration: none">Home</router-link>
             </li>
             <li>
-                <router-link to="/Cine">Cine</router-link>
+                <router-link to="/Cine" style="color: blue; text-decoration: none">Cine</router-link>
             </li>
             <li>
-                <router-link to="/Musica">Musica</router-link>
+                <router-link to="/Musica" style="color: blue; text-decoration: none">Musica</router-link>
             </li>
             <li>
-                <router-link to="/CicloVida">Ciclo de vida</router-link>
+                <router-link to="/CicloVida" style="color: blue; text-decoration: none">Ciclo de vida</router-link>
+            </li>
+            <li>
+                <router-link to="/Directivas" style="color: blue; text-decoration: none">Directivas</router-link>
+            </li>
+            <li>
+                <router-link to="/PropiedadConmutada" style="color: blue; text-decoration: none">Propiedad Conmutada</router-link>
             </li>
         </ul>
     </div>

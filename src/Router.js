@@ -3,6 +3,8 @@ import HomeComponent from './components/HomeComponent.vue';
 import CineComponent from './components/CineComponent.vue';
 import MusicaComponent from './components/MusicaComponent.vue';
 import CicloVida from './components/CicloVida.vue';
+import DirectivasComponent from './components/DirectivasComponent.vue';
+import PropiedadConmutada from './components/PropiedadConmutada.vue';
 
 //CREAMOS UNA CONSTANTE ARRAY PARA LAS RUTAS
 const myRoutes = [
@@ -17,6 +19,12 @@ const myRoutes = [
     },
     {
         path: "/CicloVida", component: CicloVida
+    },
+    {
+        path: "/Directivas", component: DirectivasComponent
+    },
+    {
+        path: "/PropiedadConmutada", component: PropiedadConmutada
     }
 ]
 
