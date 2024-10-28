@@ -1,27 +1,18 @@
 <template>
-  <HomeComponent/>
-  <CineComponent/>
-  <MusicaComponent/>
-  <HolaMundo/>
-  <img alt="Vue logo" src="./assets/images/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+      <MenuComponent/>
+      <hr/>
+      <router-view></router-view>
+    </div>
 </template>
 
 <script>
-import CineComponent from './components/CineComponent.vue'
-import HelloWorld from './components/HelloWorld.vue'
-import HolaMundo from './components/HolaMundo.vue'
-import HomeComponent from './components/HomeComponent.vue'
-import MusicaComponent from './components/MusicaComponent.vue'
+import MenuComponent from './components/MenuComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    HolaMundo,
-    HomeComponent,
-    CineComponent,
-    MusicaComponent
+    MenuComponent
   }
 }
 </script>
