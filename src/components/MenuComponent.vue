@@ -22,6 +22,9 @@
             <li>
                 <router-link to="/NumeroParImpar" style="color: blue; text-decoration: none">ParImpar</router-link>
             </li>
+            <li>
+                <router-link to="/MetodosFilters" style="color: blue; text-decoration: none">Metodos Filter</router-link>
+            </li>
         </ul>
     </div>
 </template>

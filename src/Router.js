@@ -6,6 +6,7 @@ import CicloVida from './components/CicloVida.vue';
 import DirectivasComponent from './components/DirectivasComponent.vue';
 import PropiedadConmutada from './components/PropiedadConmutada.vue';
 import NumeroParImpar from './components/NumeroParImpar.vue';
+import MetodosFilters from './components/MetodosFilters.vue';
 
 //CREAMOS UNA CONSTANTE ARRAY PARA LAS RUTAS
 const myRoutes = [
@@ -29,6 +30,9 @@ const myRoutes = [
     },
     {
         path: "/NumeroParImpar", component: NumeroParImpar
+    },
+    {
+        path: "/MetodosFilters", component: MetodosFilters
     }
 ]
 
